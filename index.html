@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bin2Dec</title>
+</head>
+<body>
+    <header>
+        <h1>Bin2Dec</h1>
+    </header>
+    
+    <div class="form">
+        <input type="text" name="binario" id="binario" maxlength="8" onkeypress="return caracteres(event)">
+        <br>
+        <button onclick="return calcular()">Converter</button>
+    </div>
+
+    <div class="resposta">
+        <p id="frase"></p>
+    </div>
+
+    <footer> 
+        <ul>
+            <li><a href="https://github.com/WanDias"><img src="./img/github.png" alt="GitHub"></a></li>
+            <li><a href="https://www.instagram.com/wandias_dev/"><img src="./img/instagram.png" alt="InstaGram"></a></li>
+            <li<a href="https://twitter.com/wandias"><img src="./img/twitter.png" alt="twitter"></a></li>
+        </ul>
+    </footer>
+
+    <script src="./src/app.js"></script>
+</body>
+</html>
